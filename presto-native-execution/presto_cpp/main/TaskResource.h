@@ -53,7 +53,7 @@ class TaskResource {
   /// that needs to be passed over in order to create custom shuffle interfaces.
   /// Please refer to
   /// https://github.com/prestodb/presto/blob/master/presto-spark-base/src/main/java/com/facebook/presto/spark/execution/BatchTaskUpdateRequest.java
-  /// to see the the Http POST structure which should be passed to create a
+  /// to see the Http POST structure which should be passed to create a
   /// batch task.
   /// - The shuffle write information should be passed in with
   /// BatchTaskUpdateRequest.shuffleWriteInfo.
